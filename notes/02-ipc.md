@@ -76,6 +76,18 @@ Metaphorically, **buffering** means queuing sent/received messages to and from o
 	* Knowing which object is stored in where and how much storage it requires
 
 ## Process Addressing
+* Processing addressing is naming of parties involved in interaction.
+* Two types of process Addressing:
+* 1. Explicit Addressing
+* 2. Implicit Addressing
+
+### Explicit Addressing
+* The process with which communication is desired is explicitly named as a parameter in the
+* communication primitive used.
+
+### Implicit Addressing
+* A process willing to communicate does not explicitly name a process for communication
+
 ### Explicit Addressing
 * `send(process_ID, message)`
 * `receive(process_ID, message)`
